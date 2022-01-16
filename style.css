@@ -2,24 +2,23 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
-.logo-color{
-    color: purple;
-}
-.logo{
-    font-size: 20px;
-    padding-left: 50px;
-    padding-top: 20px;
+main{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .container{
     width: 1000px;
+}
+/* -----------hero/main-section---------- */
+header{
+    padding-left: 260px;
 }
 .main-section{
     display: flex;
 }
 .influncer{
-    width: 50%;
-    padding-right: 0px;
-    padding-left: 40px;
+    padding-right: 40px;
 }
 .section-title{
     font-size: 55px;
@@ -29,11 +28,153 @@ p{
     font-size: 16px;
     font-weight: 700;
 }
+button{
+    width: 196px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    font-size: 17px;
+    font-weight: 700;
+   border-radius: 30px;
+   border: none;
+   margin-top: 20px;
+}
+button:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+}
 .fad{
     color: white;
     padding-left: 7px;
 }
-.main-camera img{
-    width: 100%;
-    padding-left: 200px;
+.main-camera{
+    background-image: url("circledesign.svg");
 }
+.main-camera img{
+    width: 200%;
+}
+
+ /* --------logos------ */
+
+ .logos{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+ }
+ .logo-border{
+     border: 1px solid lightgrey;
+     margin-bottom: 40px;
+     margin-top: 40px;
+ }
+
+ /*------------ Population-collection---------- */
+
+ #collection-heading{
+     color: #3a3a3a;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 28px;
+     line-height: 70px;
+     text-align: center;
+ }
+ .population-collection{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap: 24px;
+     grid-row-gap: 24px;
+ }
+ .collection{
+    border: 5px solid rgb(252, 252, 252);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px rgb(214, 213, 213);
+ }
+ .collection img{
+     border-radius: 15px;
+ }
+ .collection-title{
+     font-size: 26px;
+     color: #18191F;
+     font-size: 28px;
+     font-weight: 500;
+ }
+ .collection-price{
+     color: #000000;
+     font-size: 24px;
+     font-weight: 400;
+ }
+ .fas{
+     color: orange;
+ }
+ .collection-text{
+    color: #787885;
+ }
+
+ a{
+     color: #E02C6D;
+     padding-top: 40px;
+     text-decoration: none;
+     right: 100px;
+ }
+ .see-more{
+     display: flex;
+     justify-content: flex-end;
+     color: #E02C6D;
+ }
+ #icon{
+     color: #E02C6D;
+ }
+
+ /* ----------contact form-------- */
+
+ .form{
+     margin-top: 40px;
+ }
+ input{
+     background-color: coral;
+     color: black;
+     padding: 12px;
+     border-radius: 15px;
+     margin-bottom: 5px;
+     border: 2px solid black;
+ }
+ input:hover{
+     background-color: chartreuse;
+ }
+ .fas{
+     color: white;
+     padding-left: 10px;
+     justify-content: center;
+     transition: width 2s, height 2s, transform 1s;
+ }
+ /* ----------footer-content---------- */
+ 
+ footer{
+    width: 100%;
+     background-color: #0A0826;
+     margin-top: 50px;
+ }
+ .footer-text{
+     color: white;
+     text-align: center;
+     padding-top: 20px;
+ }
+ h3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+ }
+ .social-icon{
+     text-align: center;
+     font-size: 32px;
+     color: white;
+ }
+ .fab{
+     width: 50px;
+     height: 40px;
+     background-color: #AAAAAA;
+     border-radius: 25px;
+     padding-top: 8px;
+     margin-bottom: 40px;
+ }
