@@ -142,7 +142,7 @@ form input {
 }
 
 form .sb {
-    background-color: #E02C6D;
+    background-color: purple;
     color: #fff;
     text-transform: uppercase;
     transition: .5s;
@@ -150,7 +150,7 @@ form .sb {
 
 form .sb:hover {
     background-color: #e02c6e00;
-    color: #E02C6D;
+    color: black;
     text-transform: uppercase;
     transition: .5s;
     cursor: pointer;
