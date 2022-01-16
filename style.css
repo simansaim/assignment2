@@ -1,3 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+.logo-color{
+    color: purple;
+}
+.logo{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
