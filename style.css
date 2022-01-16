@@ -10,3 +10,45 @@ body{
     padding-left: 50px;
     padding-top: 20px;
 }
+.container{
+    width: 1000px;
+}
+.main-section{
+    display: flex;
+}
+.influncer{
+    padding-right: 40px;
+}
+.section-title{
+    font-size: 55px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    font-weight: 700;
+}
+button{
+    width: 196px;
+    height: 44px;
+    color: white;
+    background-color: #E02C6D;
+    font-size: 17px;
+    font-weight: 700;
+   border-radius: 30px;
+   border: none;
+   margin-top: 20px;
+}
+button:hover{
+    background-color: coral;
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, background-color 2s, transform 3s;
+.fad{
+    color: white;
+    padding-left: 7px;
+}
+.main-camera{
+    background-image: url("circledesign.svg");
+}
+.main-camera img{
+    width: 200%;
+}
