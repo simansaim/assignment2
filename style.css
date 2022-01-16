@@ -109,6 +109,52 @@ button:hover{
  #icon{
      color: purple;
  }
+ .contact-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+.contact-form2 {
+    grid-row-start: 2;
+    margin-bottom: 20px;
+}
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    padding-top: 100px;
+    padding-left: 30%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+form input {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+form .sb {
+    background-color: #E02C6D;
+    color: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+form .sb:hover {
+    background-color: #e02c6e00;
+    color: #E02C6D;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+}
 
  /* ----------footer-content---------- */
  
