@@ -51,18 +51,6 @@ button:hover{
     padding-right: 100px;
 }
 
- /* --------logos------ */
-
- .logos{
-     display: grid;
-     grid-template-columns: repeat(7,1fr);
- }
- .logo-border{
-     border: 1px solid lightgrey;
-     margin-bottom: 40px;
-     margin-top: 40px;
- }
-
  /*------------ Population-collection---------- */
 
  #collection-heading{
