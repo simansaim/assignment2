@@ -10,15 +10,15 @@ main{
 .container{
     width: 1000px;
 }
-/* -----------hero/main-section---------- */
 header{
-    padding-left: 260px;
+    padding-left: 20px;
 }
 .main-section{
     display: flex;
 }
 .influncer{
-    padding-right: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .section-title{
     font-size: 55px;
@@ -31,28 +31,24 @@ p{
 button{
     width: 196px;
     height: 44px;
-    color: white;
     background-color: #E02C6D;
     font-size: 17px;
     font-weight: 700;
-   border-radius: 30px;
    border: none;
    margin-top: 20px;
+   color: white;
 }
 button:hover{
-    background-color: coral;
-    transform: rotate(360deg);
-    transition: width 2s, height 2s, background-color 2s, transform 3s;
+    transform: translateX(20px)
 }
-.fad{
+.fas{
     color: white;
-    padding-left: 7px;
-}
-.main-camera{
-    background-image: url("circledesign.svg");
+    padding-left: 10px;
+    padding-top: 2px;
 }
 .main-camera img{
-    width: 200%;
+    width: 100%;
+    padding-right: 100px;
 }
 
  /* --------logos------ */
@@ -126,28 +122,6 @@ button:hover{
      color: #E02C6D;
  }
 
- /* ----------contact form-------- */
-
- .form{
-     margin-top: 40px;
- }
- input{
-     background-color: coral;
-     color: black;
-     padding: 12px;
-     border-radius: 15px;
-     margin-bottom: 5px;
-     border: 2px solid black;
- }
- input:hover{
-     background-color: chartreuse;
- }
- .fas{
-     color: white;
-     padding-left: 10px;
-     justify-content: center;
-     transition: width 2s, height 2s, transform 1s;
- }
  /* ----------footer-content---------- */
  
  footer{
